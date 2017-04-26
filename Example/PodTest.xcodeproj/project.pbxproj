@@ -106,28 +106,7 @@
 		E3790EF91EAC9BCA00C60EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3790F0A1EAC9C0A00C60EA5 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = ../../PodTest/Classes/test.h; sourceTree = "<group>"; };
 		E3790F0B1EAC9C0A00C60EA5 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = test.m; path = ../../PodTest/Classes/test.m; sourceTree = "<group>"; };
-		E3790F6B1EAD069100C60EA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3790F6D1EAD069100C60EA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E3790F6E1EAD069100C60EA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3790F701EAD069100C60EA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3790F711EAD069100C60EA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E3790F741EAD069100C60EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3790F761EAD069100C60EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3790F791EAD069100C60EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E3790F7B1EAD069100C60EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C79D8C1EAF4D9400464BDC /* test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = test.xib; path = ../../PodTest/Classes/test.xib; sourceTree = "<group>"; };
-		E3C79D951EAF4ED200464BDC /* frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frame.h; sourceTree = "<group>"; };
-		E3C79D961EAF4ED200464BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3C79DA51EAF4F0700464BDC /* static.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = static.h; sourceTree = "<group>"; };
-		E3C79DA61EAF4F0700464BDC /* static.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = static.m; sourceTree = "<group>"; };
-		E3C79DB21EAF4F4300464BDC /* teste111.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = teste111.h; sourceTree = "<group>"; };
-		E3C79DB31EAF4F4300464BDC /* teste111.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teste111.m; sourceTree = "<group>"; };
-		E3C79DB91EAF546100464BDC /* tetetete.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tetetete.xib; sourceTree = "<group>"; };
-		E3C79DBC1EAF552800464BDC /* tets222.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tets222.xib; sourceTree = "<group>"; };
-		E3C79DC41EAF5CF300464BDC /* mibon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mibon.png; sourceTree = "<group>"; };
-		E3C79DC81EAF5E0600464BDC /* mibon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mibon.png; sourceTree = "<group>"; };
-		E3C79DD21EAF5F2200464BDC /* ZTdsdnk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTdsdnk.h; sourceTree = "<group>"; };
-		E3C79DD31EAF5F2200464BDC /* ZTdsdnk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTdsdnk.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,15 +162,10 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				E3C79DC41EAF5CF300464BDC /* mibon.png */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for PodTest */,
 				6003F5B5195388D20070C39A /* Tests */,
 				E3790EF71EAC9BCA00C60EA5 /* PodTestBinary */,
-				E3790F691EAD069100C60EA5 /* test */,
-				E3C79D941EAF4ED200464BDC /* frame */,
-				E3C79DA41EAF4F0700464BDC /* static */,
-				E3C79DB11EAF4F4300464BDC /* teste111 */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				377BE3A5896A29EFC966ACB6 /* Pods */,
@@ -289,62 +263,6 @@
 				E3790EF91EAC9BCA00C60EA5 /* Info.plist */,
 			);
 			path = PodTestBinary;
-			sourceTree = "<group>";
-		};
-		E3790F691EAD069100C60EA5 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				E3790F6D1EAD069100C60EA5 /* AppDelegate.h */,
-				E3790F6E1EAD069100C60EA5 /* AppDelegate.m */,
-				E3790F701EAD069100C60EA5 /* ViewController.h */,
-				E3790F711EAD069100C60EA5 /* ViewController.m */,
-				E3790F731EAD069100C60EA5 /* Main.storyboard */,
-				E3790F761EAD069100C60EA5 /* Assets.xcassets */,
-				E3790F781EAD069100C60EA5 /* LaunchScreen.storyboard */,
-				E3790F7B1EAD069100C60EA5 /* Info.plist */,
-				E3790F6A1EAD069100C60EA5 /* Supporting Files */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		E3790F6A1EAD069100C60EA5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E3790F6B1EAD069100C60EA5 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E3C79D941EAF4ED200464BDC /* frame */ = {
-			isa = PBXGroup;
-			children = (
-				E3C79D951EAF4ED200464BDC /* frame.h */,
-				E3C79D961EAF4ED200464BDC /* Info.plist */,
-				E3C79DBC1EAF552800464BDC /* tets222.xib */,
-				E3C79DC81EAF5E0600464BDC /* mibon.png */,
-				E3C79DD21EAF5F2200464BDC /* ZTdsdnk.h */,
-				E3C79DD31EAF5F2200464BDC /* ZTdsdnk.m */,
-			);
-			path = frame;
-			sourceTree = "<group>";
-		};
-		E3C79DA41EAF4F0700464BDC /* static */ = {
-			isa = PBXGroup;
-			children = (
-				E3C79DA51EAF4F0700464BDC /* static.h */,
-				E3C79DA61EAF4F0700464BDC /* static.m */,
-			);
-			path = static;
-			sourceTree = "<group>";
-		};
-		E3C79DB11EAF4F4300464BDC /* teste111 */ = {
-			isa = PBXGroup;
-			children = (
-				E3C79DB21EAF4F4300464BDC /* teste111.h */,
-				E3C79DB31EAF4F4300464BDC /* teste111.m */,
-				E3C79DB91EAF546100464BDC /* tetetete.xib */,
-			);
-			path = teste111;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -680,22 +598,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E3790F731EAD069100C60EA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3790F741EAD069100C60EA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E3790F781EAD069100C60EA5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3790F791EAD069100C60EA5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

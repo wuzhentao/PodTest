@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'PodTest_Example' do
-  pod 'PodTest', :path => ‘../0.1.0/’
+  pod 'LJPodTestwzt', :path => ‘../0.1.0/’
   pod 'AFNetworking'
 
   target 'PodTest_Tests' do

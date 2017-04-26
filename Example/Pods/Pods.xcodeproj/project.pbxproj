@@ -120,8 +120,6 @@
 		49D2B8994A5C73FFFDDC227CDAE2B72F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		4A37669F658172AE0C7BC84667B67F7E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		4CE60C5954E6A79C2C401FB8A286BC97 /* BMKPolygonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolygonView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolygonView.h; sourceTree = "<group>"; };
-		4ED8F58E7C24FE26A0FF3D49A98D649F /* test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		500E7F314CFA824DF33A5933FE290BF3 /* PodTestBinary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodTestBinary.framework; path = Pod/Products/PodTestBinary.framework; sourceTree = "<group>"; };
 		50CDE458C2A767007CA6DEF7D20B9891 /* BMKFavPoiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKFavPoiManager.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiManager.h; sourceTree = "<group>"; };
 		51B46C1652C77B4BBCE07CECBFFBAE2E /* BMKShareUrlSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKShareUrlSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKShareUrlSearchOption.h; sourceTree = "<group>"; };
 		51C909F83A8113621F69FBA64E800199 /* BMKArclineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKArclineView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKArclineView.h; sourceTree = "<group>"; };
@@ -232,7 +230,6 @@
 		F21B7BF499B4A7798D984BAECBBBBC2C /* BMKActionPaopaoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKActionPaopaoView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKActionPaopaoView.h; sourceTree = "<group>"; };
 		F33C3FBE9F6D505D02136A55FBF538CD /* Pods-PodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PodTest_Example.modulemap"; sourceTree = "<group>"; };
 		F44C93FD7134D64666583D6D85A46A5A /* BMKOfflineMapType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOfflineMapType.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOfflineMapType.h; sourceTree = "<group>"; };
-		F4CA7C3838BD67D1F22946499E495012 /* PodTestBinary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PodTestBinary.h; sourceTree = "<group>"; };
 		F68108C6D9983FE0A1E2D0B90DF83375 /* Pods-PodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		F8EE0611A64337E75D17E3852C2BEC68 /* Pods-PodTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -285,6 +282,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0281412633E5BC1C5F94FCEC37E7EF14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08B8728C60E6244F035BCEAE47F73818 /* LJPodTestwzt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		08B8728C60E6244F035BCEAE47F73818 /* LJPodTestwzt */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LJPodTestwzt;
+			path = ../../0.1.0;
+			sourceTree = "<group>";
+		};
 		0ECDB26198B4BC9CE9CDF64259D386EE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,23 +332,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E077B244FD3A2A0AE31081E92D83A2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				61B254FE439F8E11ED102FEA5D9AC744 /* Headers */,
-			);
-			name = Products;
-			path = Products;
-			sourceTree = "<group>";
-		};
-		2FDBF892D3328DBFC71D897EEC41FC34 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				500E7F314CFA824DF33A5933FE290BF3 /* PodTestBinary.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		482C2C8D56774A28851005CADCC07171 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,25 +350,6 @@
 				7F4239008876F9AD5FE80E2AE3395696 /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
-			sourceTree = "<group>";
-		};
-		61B254FE439F8E11ED102FEA5D9AC744 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				F4CA7C3838BD67D1F22946499E495012 /* PodTestBinary.h */,
-				4ED8F58E7C24FE26A0FF3D49A98D649F /* test.h */,
-			);
-			name = Headers;
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		6472449883E92F1C989511A2B5AFBB84 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2E077B244FD3A2A0AE31081E92D83A2F /* Products */,
-			);
-			name = Pod;
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		64E58B80143D5F877CD45E24E42069B8 /* Targets Support Files */ = {
@@ -425,7 +402,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				816D486293D1676FB7D95D7B9C8007F1 /* Development Pods */,
+				0281412633E5BC1C5F94FCEC37E7EF14 /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				BF6C3ABD1947F5EEE56A27B07CC87E9E /* Pods */,
 				482C2C8D56774A28851005CADCC07171 /* Products */,
@@ -445,14 +422,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		816D486293D1676FB7D95D7B9C8007F1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F6A5B538392364424A80B9F39C848444 /* PodTest */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		874AECAF72EE174A56B234F23D784499 /* Pods-PodTest_Tests */ = {
@@ -655,16 +624,6 @@
 				1756A72A2E4B1C6CE6714375B250FCCB /* AFURLResponseSerialization.m */,
 			);
 			name = Serialization;
-			sourceTree = "<group>";
-		};
-		F6A5B538392364424A80B9F39C848444 /* PodTest */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBF892D3328DBFC71D897EEC41FC34 /* Frameworks */,
-				6472449883E92F1C989511A2B5AFBB84 /* Pod */,
-			);
-			name = PodTest;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

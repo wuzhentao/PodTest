@@ -7,6 +7,7 @@
 //
 
 #import "ZTViewController.h"
+#import <BaiduMapAPI_Map/BMKShape.h>
 
 @interface ZTViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    BMKShape *shap = [BMKShape new];
 }
 
 - (void)didReceiveMemoryWarning

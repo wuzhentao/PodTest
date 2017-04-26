@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PodTest'
+  s.name             = 'LJPodTestwzt'
   s.version          = '0.1.0'
   s.summary          = 'A short description of PodTest.'
 
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuzhentao' => 'wuzhentao@lianjia.com' }
-  s.source           = { :git => 'https://github.com/wuzhentao/PodTest.git', :commit => c327a12f5128f2090a4a8c7dcc2f759e92175e2d }
+  s.source           = { :git => 'https://github.com/wuzhentao/PodTest.git',  :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
