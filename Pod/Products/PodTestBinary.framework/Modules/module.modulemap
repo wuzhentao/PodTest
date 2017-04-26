@@ -1,0 +1,6 @@
+framework module PodTestBinary {
+  umbrella header "PodTestBinary.h"
+
+  export *
+  module * { export * }
+}

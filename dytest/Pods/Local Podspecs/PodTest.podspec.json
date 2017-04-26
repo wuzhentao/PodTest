@@ -1,0 +1,32 @@
+{
+  "name": "PodTest",
+  "version": "0.1.0",
+  "summary": "A short description of PodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuzhentao/PodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuzhentao": "wuzhentao@lianjia.com"
+  },
+  "source": {
+    "git": "https://github.com/wuzhentao/PodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Products/Headers",
+  "public_header_files": "Pod/Products/Headers/*.h",
+  "ios": {
+    "vendored_frameworks": "Pod/Products/PodTestBinary.framework"
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

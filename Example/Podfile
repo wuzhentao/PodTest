@@ -1,0 +1,17 @@
+use_frameworks!
+
+target 'PodTest_Example' do
+  pod 'PodTest', :path => '../'
+  pod 'AFNetworking'
+
+  target 'PodTest_Tests' do
+    inherit! :search_paths
+
+
+  end
+end
+
+
+target 'PodTestBinary' do
+    
+end
